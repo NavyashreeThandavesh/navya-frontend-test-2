@@ -1,12 +1,17 @@
 
 $(document).ready(function(){
-  $("abt").click(function(){
-    ("#mydiv").toggle();
+  $("#container").click(function(){
+    ("#mydiv").hide();
   });
   });
 $(document).ready(function(){
-  $("button").click(function(){
-    ("#s").toggle();
+  $("#container").click(function(){
+    ("#mydiv").show();
   });
   });
-  
+  $(document).ready(function(){
+  $("#carousel-inner").carousel({
+    interval:3000
+
+  });
+});
