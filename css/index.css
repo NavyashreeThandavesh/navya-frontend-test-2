@@ -1,6 +1,4 @@
-.row{
-	background-color: #2d2d30;
-}
+
 h2{
 	color: white;
 	font-style: italic;
@@ -48,25 +46,26 @@ h2{
   	width: 800px;
   	text-align: center;
   	margin-left: 20px;
+    background-color: orange;
   }
   .row{
 
   	border: ridge;
   	background-color:#2d2d30;
   }
-  .row2{
-  	border: inset;
-  }
+  
   .multi-text{
 	border-style: outset;
 }
 .wrapper{
 	column-count: 1px;
 	margin-top: 100px;
+  padding: 10px;
+  text-indent: 10px;
 }
 .wrap-img1{
 	border-radius: 40%;
-   height: 150px; 
+   height: 100px; 
    width:150px; 
    background-color: #2badd9; 
    float: left; 
@@ -76,25 +75,25 @@ h2{
    margin-right: 5px;
 }
   #up{
-    margin-left: 1100px;
-    padding-bottom: 100px;
+    margin-left: 1000px;
+    
   }
    footer.footer {
-    height: 60px;
+    height: 100px;
     width: 100%;
-    background-color: grey;
+    background-color: black;
 }
 
  div.footercontainer {
-    color:blue;
+    color:white;
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
 }
 p{
 	text-indent: 50px;
 }
   .pagination{
-  	margin-left: 500px;
+  	margin-left: 100px;
   }
   #search {
     float: right;
@@ -168,6 +167,36 @@ p{
   background: #dd4b39;
   color: white;
 }
-.btn btn-info{
-	margin-top: 300px,300px;
+.row7{
+  margin-right: 150px;
 }
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+.pagination {
+   display: inline-block; }
+.pagination a { 
+  color: black; 
+  float: left; 
+  padding: 0px 0px; 
+  text-decoration: none; 
+  transition: background-color .3s; 
+  border: 0px solid #ddd;
+   margin: 0 0px;
+ } 
+.pagination a.active { 
+  background-color: #4CAF50; 
+  color: white; 
+  border: 1px solid #4CAF50; 
+} 
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  } 
+.nx{ 
+    float:right;
+   }
+   .pr{
+    float:left;
+   }
