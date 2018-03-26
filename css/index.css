@@ -1,10 +1,17 @@
-
 h2{
-	color: white;
+  
+	color: black;
 	font-style: italic;
 	text-align: center;
+  
 }
- 
+.row1{
+  border: ridge;
+  background-color: orange;
+  padding: 50px;
+}
+
+
   .navbar {
       font-family: Montserrat, sans-serif;
       margin-bottom: 0;
@@ -40,6 +47,7 @@ h2{
   h1{
   	text-align: center;
   	border-style: ridge;
+    background-color: orange;
   }
   h3{
   	border-style: outset;
@@ -48,11 +56,7 @@ h2{
   	margin-left: 20px;
     background-color: orange;
   }
-  .row{
-
-  	border: ridge;
-  	background-color:#2d2d30;
-  }
+  
   
   .multi-text{
 	border-style: outset;
@@ -74,14 +78,16 @@ h2{
    margin-bottom: 2px; 
    margin-right: 5px;
 }
-  #up{
-    margin-left: 1000px;
-    
+ 
+  #back-to-top{
+    margin-bottom: 200px;
+    margin-left: 200px;
   }
    footer.footer {
     height: 100px;
     width: 100%;
     background-color: black;
+    margin-top: 50px;
 }
 
  div.footercontainer {
@@ -102,7 +108,7 @@ p{
 }
 
 .search {
-    padding: 5px 0;
+    padding: 5px 10px;
     width: 230px;
     height: 30px;
     position: relative;
@@ -110,6 +116,7 @@ p{
     float: right;
     line-height: 22px;
     color: orange;
+    margin-left: 900px;
 }
 
     .search input {
@@ -131,6 +138,9 @@ p{
             width: 200px;
             margin-left: 0px;
         }
+#info{
+  margin-left: 20px;
+}
 
 .btn {
     height: 30px;
@@ -167,36 +177,12 @@ p{
   background: #dd4b39;
   color: white;
 }
-.row7{
-  margin-right: 150px;
-}
+
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 70%;
       margin: auto;
   }
-.pagination {
-   display: inline-block; }
-.pagination a { 
-  color: black; 
-  float: left; 
-  padding: 0px 0px; 
-  text-decoration: none; 
-  transition: background-color .3s; 
-  border: 0px solid #ddd;
-   margin: 0 0px;
- } 
-.pagination a.active { 
-  background-color: #4CAF50; 
-  color: white; 
-  border: 1px solid #4CAF50; 
-} 
-.pagination a:hover:not(.active) {
-  background-color: #ddd;
-  } 
-.nx{ 
-    float:right;
-   }
-   .pr{
-    float:left;
+#btn{ 
+  margin-left:400px;
    }
